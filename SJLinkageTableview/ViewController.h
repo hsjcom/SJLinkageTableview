@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    NSArray *_dataArray;
+    BOOL _isRelate;
+}
 
+@property (nonatomic, strong) UITableView *leftTableView;
+@property (nonatomic, strong) UITableView *rightTableView;
 
 @end
 
