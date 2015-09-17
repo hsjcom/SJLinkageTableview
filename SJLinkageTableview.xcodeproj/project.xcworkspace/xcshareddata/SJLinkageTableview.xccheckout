@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0AAF6E46-638D-4969-9216-2B1DC4E7B6B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SJLinkageTableview</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4BA480F694FAAD00069A909E0A6C26FAB45E930B</key>
+		<string>https://github.com/hsjcom/SJLinkageTableview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SJLinkageTableview.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4BA480F694FAAD00069A909E0A6C26FAB45E930B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hsjcom/SJLinkageTableview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4BA480F694FAAD00069A909E0A6C26FAB45E930B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4BA480F694FAAD00069A909E0A6C26FAB45E930B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SJLinkageTableview</string>
+		</dict>
+	</array>
+</dict>
+</plist>

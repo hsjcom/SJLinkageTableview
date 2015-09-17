@@ -19,10 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"SJLinkageTableview";
+    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    CGRect viewBounds = self.view.bounds;
+    float navBarHeight = self.navigationController.navigationBar.frame.size.height + 20;
+    viewBounds.size.height = ([[UIScreen mainScreen] bounds].size.height) - navBarHeight;
+    self.view.bounds = viewBounds;
+    
     [self loadData];
-    [self rightTableView];
     [self leftTableView];
+    [self rightTableView];
     
     _isRelate = YES;
 }
@@ -81,13 +88,11 @@
                      @"list" : @[@"Soldier", @"aaa16", @"aaa", @"aaa", @"aaa", @"aaa", @"aaa", @"aaa"]
                      }
                    ];
-    
-
 }
 
 - (UITableView *)leftTableView {
     if (nil == _leftTableView){
-        _leftTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, 60, self.view.frame.size.height)];
+        _leftTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 100, self.view.frame.size.height)];
         _leftTableView.backgroundColor = [UIColor whiteColor];
         _leftTableView.delegate = self;
         _leftTableView.dataSource = self;
@@ -98,7 +103,7 @@
 
 - (UITableView *)rightTableView{
     if (nil == _rightTableView){
-        _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(60, 0, self.view.frame.size.width - 60, self.view.frame.size.height)];
+        _rightTableView = [[UITableView alloc] initWithFrame:CGRectMake(100, 0, self.view.frame.size.width - 100, self.view.frame.size.height)];
         _rightTableView.backgroundColor = [UIColor whiteColor];
         _rightTableView.delegate = self;
         _rightTableView.dataSource = self;
