@@ -229,6 +229,8 @@
     }
 }
 
+#pragma mark - UIScrollViewDelegate
+
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     _isRelate = YES;
 }
