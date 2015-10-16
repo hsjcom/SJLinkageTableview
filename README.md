@@ -1,5 +1,7 @@
 # SJLinkageTableview
 
+`UITableView`
+
 ## Intro
 * 左右tableview联动
 * 二级分类tableview
